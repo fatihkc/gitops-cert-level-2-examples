@@ -30,5 +30,5 @@ spec:
       syncPolicy:
         automated:
           auto-sync: true
-          self-heal: true
+          selfHeal: true
           createNamespace: true
