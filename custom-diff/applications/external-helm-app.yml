@@ -29,8 +29,6 @@ spec:
     - /spec/replicas
   - group: secrets
     kind: Secret
-    name: mysecret
-    namespace: example02
     jsonPointers:
     - /data/my-username
     - /data/my-password
